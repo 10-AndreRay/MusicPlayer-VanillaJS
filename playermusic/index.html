@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--style-->
+    <link rel="stylesheet" href="style.css">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/3d7ac91f09.js" crossorigin="anonymous"></script>
+    <title>Vanilla Music</title>
+</head>
+<body>
+    <div class="container">
+        <img src="images/nathan-costa-_J0OUTtIlT8-unsplash.jpg" class="banner">
+        <div class="description">
+            <h1 class="name"></h1>
+            <i class="artist"></i>
+        </div>
+        <div class="duration">
+            <div class="bar">
+                <progress value="0" max="1"></progress>
+                <div class="point">
+                </div>
+            </div>
+            <div class="time">
+                <p class="start"></p>
+                <p class="end"></p>
+            </div>
+        </div>
+        <div class="controls">
+            <i class="fas fa-step-backward arrow previous"></i>
+            <i class="fas fa-play-circle button-play"></i>
+            <i class="fas fa-pause-circle button-pause"></i>
+            <i class="fas fa-step-forward arrow next"></i>
+        </div>
+        <audio src="musics/Bite Me - NEFFEX.mp3" type="audio/mpeg"></audio>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
